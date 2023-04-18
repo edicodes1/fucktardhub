@@ -1,0 +1,90 @@
+if game.PlaceId == 592150372 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "fucktard hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroText = "hewo gays"})
+
+OrionLib:MakeNotification({
+	Name = "wassap",
+	Content = "hewo ^-^",
+	Image = "",
+	Time = 5
+})
+
+local LockTab = Window:MakeTab({
+	Name = "noice exploit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+LockTab:AddButton({
+	Name = "rayx",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+      	print("button pressed")
+  	end    
+})
+
+LockTab:AddButton({
+	Name = "swagmode",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))(
+      	print("button pressed")
+  	end    
+})
+
+LockTab:AddTextbox({
+	Name = "read",
+	Default = "dont use swag mode near stars or premium swag users ty",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+ 
+LockTab:AddButton({
+	Name = "spacesex",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+      	print("button pressed")
+  	end    
+})
+
+LockTab:AddButton({
+	Name = "arktic",
+	Callback = function()
+        loadstring(game:HttpGet("https://polarsblade.xyz/Arctic/Arctic.txt"))()
+      	print("button pressed")
+  	end    
+})
+
+LockTab:AddButton({
+	Name = "lanxility",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cjdjmj/new-ui-godmode/main/README.md", true))()
+      	print("button pressed")
+  	end    
+})
+
+LockTab:AddTextbox({
+	Name = "read",
+	Default = "lanxility is a old script idek if it works ty",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+ 
+local LockerzTab = Window:MakeTab({
+	Name = "blatant lockerz",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "gren box lock",
+	Callback = function()
+      	print("button pressed")
+  	end    
+})
+
+end
+OrionLib:Init()
